@@ -1,0 +1,69 @@
+.container {
+    width: 100%;
+    display: flex;
+    overflow: auto;
+    min-height: 100vh;
+    flex-direction: row;
+  }
+  .container1 {
+    flex: 0 0 auto;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+  }
+  .container2 {
+    flex: 0 0 auto;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+  }
+  .container3 {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    z-index: 3;
+  }
+  .container4 {
+    flex: 0 0 auto;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    z-index: 3;
+  }
+  .hero {
+    flex:content;
+    width: 100%;
+    height: 100%;
+    display:flex;
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+    background-size:cover;
+    background-image:url("./MITCarParkBG.jpg") ;
+    z-index: 1;
+  }
+  .bg {
+    flex: 0 0 auto;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    opacity: 0.7;
+    position: absolute;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: black;
+    z-index:2;
+  }
+
+  .image{
+    border: 2px solid black; /* set the border width and color */
+    border-radius: 1px; /* round the corners of the border */
+    mix-blend-mode:luminosity;
+  }
