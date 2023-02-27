@@ -2,7 +2,9 @@ import React from 'react';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Floor3 from './core/Floor3';
 import Floor4 from "./core/Floor4";
-
+// import MainHeader from './core/MainHeader';
+import Home from './core/Home';
+// import Dashboard from './core/Dashboard' ;
 
 export default function App() {
   return (
@@ -11,6 +13,8 @@ export default function App() {
         <Routes>
           <Route path="/floor3" exact element={<Floor3 />} />
           <Route path="/floor4" exact element={<Floor4 />} />
+          <Route path="/" exact element={<Home />} />
+          {/* <Route path="/dashboard" exact element={<Dashboard />} /> */}
         </Routes>
       </BrowserRouter>
     </div>

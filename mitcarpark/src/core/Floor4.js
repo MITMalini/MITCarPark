@@ -37,7 +37,7 @@ export default function Floor4() {
                         })
                         }
                     </div>
-                    <div className="floor-container-slotRS">
+                    <div className="floor-container-slotR">
                         {slots.slice(18, 19).map((slot) => {
                             if (slot.Availability === 1) {
                                 return (
