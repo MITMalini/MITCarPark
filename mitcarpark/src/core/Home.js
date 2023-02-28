@@ -21,7 +21,7 @@ const Home = (props) => {
             return;
         }
         if (user) navigate("/floor4");
-    }, [user]);
+    }, [user,loading]);
     // }, [user, loading]);
 
     return (
@@ -79,7 +79,7 @@ const Home = (props) => {
                                 className="loginbutton"
                                 onClick={() => signInWithEmailAndPassword(email, password)}>LOGIN</button>
                             <p className="text2" >Or Sign In using</p>
-                            <input type="image" src={GoogleLogo} onClick={signInWithGoogle} style={{ width: "5%", height: "auto" }} />
+                            <input type="image" src={GoogleLogo} alt="googlelogo" onClick={signInWithGoogle} style={{ width: "5%", height: "auto" }} />
                         </div>
                         <br></br>
                         <div className="container10">

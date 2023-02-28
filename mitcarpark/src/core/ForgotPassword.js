@@ -14,7 +14,7 @@ const ForgetPassword = (props) => {
     useEffect(() => {
         if (loading) return;
         if (user) navigate("/dashboard");
-    }, [user]);
+    }, [user, loading]);
 
     return (
         <div className='container'>
