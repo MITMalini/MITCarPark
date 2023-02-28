@@ -51,7 +51,7 @@ const Home = (props) => {
                     </div>
                 </div>
                 <div className='container3'>
-                    <img src={MITLogo} alt="logo" style={{ width: "50%", height: "auto" }}></img>
+                    <img src={MITLogo} alt="logo" style={{ width: "50%", height: "auto" }}></img><br></br>
                     <h1 className='Heading'>USER SIGN IN</h1>
                     <div className='container7'>
                         <div className='container11'>
